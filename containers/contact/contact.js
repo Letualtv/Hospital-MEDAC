@@ -1,16 +1,16 @@
 const form = document.getElementById('contactForm');
 const alert = document.querySelector('.alert');
 
-const firebaseConfig = {
-  apiKey: "AIzaSyAPSNGFYh6A4zz27B3vUu4H2pqBXtGLq2Q",
-  authDomain: "formulariomedac.firebaseapp.com",
-  databaseURL: "https://formulariomedac-default-rtdb.firebaseio.com",
-  projectId: "formulariomedac",
-  storageBucket: "formulariomedac.appspot.com",
-  messagingSenderId: "538716580446",
-  appId: "1:538716580446:web:39dfaee90e617c39d6a2cf",
-  measurementId: "G-85R9FCV943"
-};
+// const firebaseConfig = {
+//   apiKey: "AIzaSyAPSNGFYh6A4zz27B3vUu4H2pqBXtGLq2Q",
+//   authDomain: "formulariomedac.firebaseapp.com",
+//   databaseURL: "https://formulariomedac-default-rtdb.firebaseio.com",
+//   projectId: "formulariomedac",
+//   storageBucket: "formulariomedac.appspot.com",
+//   messagingSenderId: "538716580446",
+//   appId: "1:538716580446:web:39dfaee90e617c39d6a2cf",
+//   measurementId: "G-85R9FCV943"
+// };
 
 // Initialize Firebase
 firebase.initializeApp(firebaseConfig);
