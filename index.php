@@ -42,9 +42,8 @@
   <!-- ENLACE COMPONENTES -->
   <?php require('containers/navbar/navbar.html') ?>
   <?php require('containers/main/main.html') ?>
-  <?php require('containers/cards/cards.html') ?>
-  <?php require('containers/gallery/gallery.html') ?>
-  <?php require('containers/video/video.html') ?>
+  <?php require('containers/cards/cards1.html') ?>
+  <?php require('containers/cards/cards2.html') ?>
   <?php require('containers/contact/contact.html') ?>
   <?php require('containers/footer/footer.html') ?>
 
