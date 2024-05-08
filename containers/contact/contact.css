@@ -1,0 +1,84 @@
+#sfButton {
+  background-color: var(--acento);
+  padding: 5px 30px;
+  text-decoration: none;
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: var(--secundario);
+}
+
+#sfButton:hover {
+  background-color: var(--acento-hover);
+  color: var(--secundario);
+}
+
+.form-control:not(:placeholder-shown) ~ label {
+  color: var(--acento) !important;
+}
+
+
+.form-floating > input + label:after {
+  background: transparent !important;
+}
+
+.form-item {
+  margin: 1.6em 0;
+}
+
+.form-control:placeholder-shown {
+  background-color: #f2f2f2;
+  border: 0.125rem solid var(--principal);
+  border-radius: 0;
+}
+.form-control[type="email"],
+.form-control[type="tel"],
+.form-control[type="text"] {
+  background-color: #f2f2f2;
+  border: 0.125rem solid var(--principal);
+  border-radius: 0;
+  border-top: none !important;
+  border-left: none !important;
+  border-right: none !important;
+  padding-left: 0;
+}
+
+.form-control[type="email"]:focus,
+.form-control[type="tel"]:focus,
+.form-control[type="text"]:focus {
+  background-color: #e9f7f6;
+  border-bottom: 0.125rem solid var(--acento);
+  border-radius: 0;
+  background-clip: padding-box;
+  -webkit-box-shadow: 0 0 0 0 #e9f7f6;
+  box-shadow: 0 0 0 0 #e9f7f6;
+}
+
+#check1 {
+  border-radius: 0;
+  border: 0.125rem solid #666;
+
+  cursor: pointer;
+  box-shadow: none;
+}
+#check1:checked {
+  border: transparent;
+  background-color: var(--principal);
+}
+#check2 {
+  border-radius: 0;
+  border: 0.125rem solid #666;
+
+  cursor: pointer;
+  box-shadow: none;
+}
+#check2:checked {
+  border: transparent;
+  background-color: var(--principal);
+}
+
+#h2t {
+  color: var(--principal);
+}
+.alert{
+  display: none;
+}

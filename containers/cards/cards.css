@@ -1,0 +1,47 @@
+/* Color de fondo de las tarjetas, espaciado y color de letra */
+.cardContainer .cards-row:nth-child(1){
+    background-color: var(--principal);
+}
+.cardContainer .cards-row:nth-child(2){
+    background-color: var(--primary-700);
+}
+.cardContainer .cards-row:nth-child(3){
+    background-color: var(--primary-600);
+}
+.cardContainer .cards-row:nth-child(4){
+    background-color: var(--primary-500);
+}
+.cards-row {
+    color: white;
+padding-top: 3rem  !important;
+padding-bottom: 3rem  !important;
+}
+
+
+
+/* Linea separadora */
+.cardsSeparator {
+        border-top: 8px solid var(--acento);
+        height: 2px;
+        max-width: 82px;
+}
+
+/* Estilos de texto */
+.cardTitle {
+    font-weight: 700;
+}
+
+.cardText {
+    font-size:1.25rem;
+    color: white;
+    font-weight: 500 !important;
+    padding: 1.5em 0.7em;
+}
+.cardText:not(div){
+    padding: 0;
+}
+.cardNumber {
+    color: #66cbc4;
+   font-size: 3rem;
+    font-weight: 900;
+}

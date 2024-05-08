@@ -1,0 +1,72 @@
+<!-- contact -->
+<section id="contact" class="container py-4">
+    <div class="row ">
+
+        <form class="formulario mx-auto col-lg-5 col-sm-10 col-md-8" id="contactForm">
+
+            <h2 class="text-center pt-3 pb-2 fw-bolder">¡Quiero más información!</h2>
+
+
+
+            <div class="form-item form-floating form-group">
+                <input type="text" id="nombre" name="nombre"  size="60" maxlength="128" placeholder="Nombre"
+                    class="required form-control has-value ps-3" required="required" aria-required="true">
+                <label for="nombre" class="form-required">Nombre*</label>
+            </div>
+
+            <div class="form-item form-floating form-group">
+                <input id="telefono" minlength="9" maxlength="9" pattern="(\d{9})" type="tel" name="telefono" 
+                    size="30" placeholder="Teléfono" class=" form-tel required form-control ps-3" required="required"
+                    aria-required="true">
+                <label for="telefono" class="form-required">Teléfono*</label>
+            </div>
+
+            <div class="form-item form-floating form-group">
+                <input pattern="[a-z0-9\._%+\-]+@[a-z0-9\.\-]+\.[a-z]{2,7}$" type="text" id="email" name="email"
+                     size="60" maxlength="254" placeholder="Correo electrónico"
+                    class="form-email required form-control ps-3" required="required" aria-required="true">
+                <label for="email" class="form-required">Correo electrónico*</label>
+            </div>
+
+            <div class="form-item form-floating form-group">
+                <input minlength="4" maxlength="5" pattern="\d*" type="text" id="cp" name="cp"  size="60"
+                    placeholder="Código postal" class="required form-control ps-3" aria-required="true">
+                <label for="cp" class="form-required">Código postal*</label>
+            </div>
+
+            <div class="mb-3 form-floating form-item">
+                <input id="pregunta" class="required form-control ps-3" type="text" name="pregunta"
+                    placeholder="Pregunta" rows="3"></input>
+                <label for="pregunta" type="s" class="form-label">Pregunta*</label>
+            </div>
+
+            <div class="mb-3 form-check">
+                <input type="checkbox" required class="form-check-input " name="check1" id="check1">
+                <label class="ps-1 form-check-label text-secondary small" for="check1">Al pulsar el botón, aceptas nuestra <a
+                        class=" blue text-decoration-underline" target="_blank" href="https://medac.es/politica-de-privacidad">Política de
+                        privacidad</a>*
+                </label>
+            </div>
+
+            <div class=" form-check">
+                <input type="checkbox"  class="form-check-input" name="check2" id="check2">
+                <label  class="text-secondary ps-1 form-check-label small" for="check2">Consiento en recibir
+                    comunicaciones
+                    comerciales de las empresas integrantes del <a href="https://medac.es/grupo-educa-holdco" class="blue text-decoration-underline" target="_blank" rel="noopener noreferrer">Grupo Educa Holdco.</a>
+                </label>
+            </div>
+
+            <div class="alert alert-success p-2 text-center" role="alert">
+                Formulario enviado, gracias por ponerse en contacto con el equipo de <b class="blue">MEDACverso</b>.
+                              </div>
+
+            <div class="py-4">
+                <button type="submit" id="sfButton" class="btn btn-lg rounded-pill">Solicitar
+                    información</button>
+            </div>
+
+        </form>
+
+    </div>
+
+</section>

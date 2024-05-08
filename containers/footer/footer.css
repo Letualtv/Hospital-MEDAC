@@ -1,0 +1,49 @@
+#footer {
+  background-color: var(--principal);
+  color: var(--acento-hover);
+}
+
+.hFooter {
+  color: var(--secundario);
+  font-weight: 600;
+}
+
+.iFooter {
+  width: 200px;
+}
+
+.ulFooter li a {
+  text-decoration: none;
+  color: inherit;
+
+  font-weight: 400;
+  line-height: 1.5;
+  margin: 4px, 0px;
+}
+
+.ulFooter li a:hover {
+  color: var(--acento);
+}
+.iconFooter a {
+  color: var(--acento-hover);
+
+  margin-left: 0.5em;
+  margin-right: 0.5em;
+}
+
+.iconFooter a i {
+  transition: transform 0.2s ease; /* Animation */
+}
+
+.iZoom:hover i {
+  color: var(--acento-hover);
+  transform: scale(
+    1.2
+  ); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+.politica,
+a {
+  text-decoration: none;
+  color: #9cb3c9;
+  font-size: 0.8rem;
+}
