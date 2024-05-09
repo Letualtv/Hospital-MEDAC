@@ -1,11 +1,13 @@
+
 .card-title {
     font-weight: bold;
     font-size: large;
 }
 article .card{
-    border: 1.5px solid var(--principal);
+    border: 2px solid var(--principal);
     transition: 0.5;
     transition: background-color 0.2s ease;
+box-shadow:  19px 19px 38px #c1c1c1;
 
 }
 

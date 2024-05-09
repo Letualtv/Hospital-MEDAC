@@ -23,7 +23,9 @@
   /*Font family*/
   font-family: "IBM Plex Sans", sans-serif, Calibri, "Trebuchet MS", sans-serif;
 }
-
+body{
+  background-color:  var(--primary-50);
+}
 .blue {
   color: var(--principal);
 }
