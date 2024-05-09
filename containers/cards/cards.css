@@ -7,17 +7,17 @@ article .card{
     border: 2px solid var(--principal);
     transition: 0.5;
     transition: background-color 0.2s ease;
-box-shadow:  19px 19px 38px #c1c1c1;
+    box-shadow:  19px 19px 38px #c1c1c1;
 
 }
 
 .card-body h5{
     min-height: 50px;
     min-width: 40px;
-align-content: center;
+    align-content: center;
 }
 article .card:hover {
-border-color: var(--acento);
-filter: brightness(103%);
-background-color: rgba(51, 185, 176, 0.2);
+    border-color: var(--acento);
+    filter: brightness(103%);
+    background-color: rgba(51, 185, 176, 0.2);
 }
