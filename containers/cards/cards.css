@@ -8,6 +8,12 @@ article .card{
     transition: background-color 0.2s ease;
 
 }
+
+.card-body h5{
+    min-height: 50px;
+    min-width: 40px;
+align-content: center;
+}
 article .card:hover {
 border-color: var(--acento);
 filter: brightness(103%);
