@@ -21,6 +21,7 @@
   <link rel="stylesheet" href="containers/contact/contact.css">
   <link rel="stylesheet" href="containers/footer/footer.css">
   <link rel="stylesheet" href="containers/cards/cards.css">
+  <link rel="stylesheet" href="containers/info/info.css">
   <link rel="stylesheet" href="css/app.css">
 
   <!-- ENLACE FIREBASE -->
@@ -44,6 +45,7 @@
   <?php require('containers/main/main.html') ?>
   <?php require('containers/cards/cards1.html') ?>
   <?php require('containers/cards/cards2.html') ?>
+  <?php require('containers/info/info.html') ?>
   <?php require('containers/contact/contact.html') ?>
   <?php require('containers/footer/footer.html') ?>
 
