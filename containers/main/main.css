@@ -1,41 +1,4 @@
-#titleButton {
-  cursor: pointer;
-  border: none;
-  outline: none;
-  background-color: var(--principal);
-  color: var(--secundario);
-  box-shadow: 0px 0px 35px var(--primary-600);
-  text-transform: uppercase;
-  letter-spacing: 1px;
-  transition: 0.6s;
-}
-
-#titleButton:hover {
-  background: rgb(2, 29, 78);
-  background: linear-gradient(270deg, rgba(2, 29, 78, 1) 0%, var(--acento) 30%);
-  color: var(--principal);
-}
-
-.h1 {
-  color: var(--principal);
-  font-weight: 700;
-}
 #mainContainer {
-  background-color: #002E4C;
+  height: 90vh;
+  background-color: var(--principal);
 }
-.imgMeta {
-  max-height: 90vh;
-  mask-image: linear-gradient(to top, transparent 1%, black 10%);
-  animation: fadeIn 2s ease;
-}
-@keyframes fadeIn {
-  0% {
-    opacity: 0;
-    filter: blur(15px);
-  }
-  10% {
-    opacity: 1;
-    filter: brightness(2), blur(7px);
-  }
-}
-
