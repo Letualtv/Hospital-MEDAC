@@ -10,3 +10,9 @@
     height: 257px;
     padding: 1rem;
 }
+
+.shadowBox{
+    background: linear-gradient(200deg, #858585, #9e9e9e);
+    box-shadow:  24px 2px 48px #8d8d8d,
+                 -24px -24px 48px #9b9b9b;
+}
