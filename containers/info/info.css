@@ -2,4 +2,10 @@
     background-color: var(--principal);
 }
 
+.btn-acento{
+    color: var(--principal-hover);
+}
 
+.imgMax{
+    height: 257px;
+}

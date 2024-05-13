@@ -3,10 +3,12 @@
     <div class="row justify-content-center gap-lg-5 gap-3 mx-2 m-md-0 pt-2 contenedor">
         <div class="col-12 col-md-12 col-lg-3"> 
             <div class="card info h-100"> 
-                <img src="assets\web\info.svg" class="img-fluid card-img-top p-5" alt="Qué es" />
+                <img src="assets\web\info.svg" class="img-fluid imgMax" alt="Qué es" />
                 <div class="card-body d-flex flex-column justify-content-between"> 
                     <h5 class="card-title" style="color: var(--acento)">¿Qué es?</h5>
-                    <p class="fw-bold">Nuestro simulador te ofrece una amplia gama de aulas especializadas cada una dedicada a una faceta crucial del cuidado de la salud. Un simulador innovador diseñado para brindarte una experiencia inmersiva y educativa que te permitirá adquirir habilidades prácticas y conocimientos fundamentales para tu carrera en el ámbito de la salud</p>
+                    <p class="fw-bold">
+                        Nuestro simulador te ofrece una amplia gama de aulas especializadas cada una dedicada a una faceta crucial del cuidado de la salud. Un simulador innovador diseñado para brindarte una experiencia inmersiva y educativa que te permitirá adquirir habilidades prácticas y conocimientos fundamentales para tu carrera en el ámbito de la salud
+                    </p>
                     <div class="text-end">
                         <i class="fa-solid fa-file-circle-question fa-2xl" style="color: var(--acento)"></i>
                     </div>
@@ -16,10 +18,12 @@
     
         <div class="col-12 col-md-12 col-lg-3"> 
             <div class="card info h-100"> 
-                <img src="assets\web\objetive.svg" class="img-fluid card-img-top p-5" alt="Objetivos" />
+                <img src="assets\web\objetive.svg" class="img-fluid imgMax" alt="Objetivos" />
                 <div class="card-body d-flex flex-column justify-content-between"> 
                     <h5 class="card-title" style="color: var(--acento)">Nuestro objetivo</h5>
-                    <p class="fw-bold">La Fundación MEDAC es una entidad sin ánimo de lucro que persigue impactar en la sociedad generando un cambio positivo llevando a cabo acciones que hagan un mundo eco sostenible, impulsen la empleabilidad y la investigación, centradas en colectivos desfavorecidos de la sociedad. Con este fin, trabaja de manera conjunta con otras entidades de diferentes sectores que impulsen el cambio real.</p>
+                    <p class="fw-bold">
+                        La Fundación MEDAC es una entidad sin ánimo de lucro que persigue impactar en la sociedad generando un cambio positivo llevando a cabo acciones que hagan un mundo eco sostenible, impulsen la empleabilidad y la investigación, centradas en colectivos desfavorecidos de la sociedad. Con este fin, trabaja de manera conjunta con otras entidades de diferentes sectores que impulsen el cambio real.
+                    </p>
                     <div class="text-end">
                         <i class="fa-solid fa-location-crosshairs fa-2xl" style="color: var(--acento)"></i>
                     </div>
@@ -29,25 +33,39 @@
     
         <div class="col-12 col-md-12 col-lg-3"> 
             <div class="card h-100"> 
-                <img src="assets\web\requeriments.svg" class="img-fluid card-img-top p-5" alt="Requisitos hardware" />
+                <img src="assets\web\requeriments.svg" class="img-fluid imgMax" alt="Requisitos hardware" />
                 <div class="card-body d-flex flex-column justify-content-between"> 
                     <h5 class="card-title" style="color: var(--acento)">Requisitos hardware</h5>
-                    <p>
-                        <b class="fw-bold">Requisitos mínimos:</b>
-                        <ul>                        
-                            <li>Procesador: Intel i3-6100/AMD Ryzen 3 1200, FX4350 o superior.</li>
-                            <li>Tarjeta gráfica: NVIDIA GTX 1050 Ti/AMD Radeon RX 470 o superior.</li>
-                            <li>Memoria: 8 GB de RAM o más.</li>
-                            <li>Sistema operativo: Windows 10 o versiones posteriores.</li>
-                        </ul>   
-                        <b class="fw-bold">Requisitos recomendados:</b>
-                        <ul> 
-                            <li>Procesador: Intel i5-4590/AMD Ryzen 5 1500X o superior.</li>
-                            <li>Tarjeta gráfica: NVIDIA GTX 1060/AMD Radeon RX 480 o superior.</li>
-                            <li>Memoria: 8 GB de RAM o más.</li>
-                            <li>Sistema operativo: Windows 10 o versiones posteriores.</li>
-                        </ul>   
+                    <p class="fw-bold">
+                        Para disfrutar de nuestro simulador no es necesario utilizar gafas de realidad virutal, 
+                        pero échale un vistazo a los requisitos hardware
                     </p>
+                    <p>
+                        <button class="btn btn-acento btn-light" type="button" data-bs-toggle="collapse" data-bs-target="#min" aria-expanded="false" aria-controls="min">
+                            + Requisitos mínimos
+                        </button>
+                            <div class="collapse" id="min">
+                                    <ul>                        
+                                        <li>Procesador: Intel i3-6100/AMD Ryzen 3 1200, FX4350 o superior.</li>
+                                        <li>Tarjeta gráfica: NVIDIA GTX 1050 Ti/AMD Radeon RX 470 o superior.</li>
+                                        <li>Memoria: 8 GB de RAM o más.</li>
+                                        <li>Sistema operativo: Windows 10 o versiones posteriores.</li>
+                                    </ul>   
+                            </div>  
+                    </p>
+                    <p>                     
+                        <button class="btn btn-acento btn-light" type="button" data-bs-toggle="collapse" data-bs-target="#recomend" aria-expanded="true" aria-controls="recomend">
+                            + Requisitos recomendados
+                        </button>
+                          <div class="collapse" id="recomend">
+                                <ul> 
+                                    <li>Procesador: Intel i5-4590/AMD Ryzen 5 1500X o superior.</li>
+                                    <li>Tarjeta gráfica: NVIDIA GTX 1060/AMD Radeon RX 480 o superior.</li>
+                                    <li>Memoria: 8 GB de RAM o más.</li>
+                                    <li>Sistema operativo: Windows 10 o versiones posteriores.</li>
+                                </ul>   
+                          </div>  
+                    </p>                      
                     <div class="text-end">
                         <i class="fa-solid fa-microchip fa-2xl" style="color: var(--acento)"></i>
                     </div>
