@@ -32,7 +32,7 @@ nav {
 /* Boton entrar al metaverso */
 
 #btnEntrar {
-  background-color: var(--principal);
+  background-color: var(--acento);
 
   text-decoration: none;
   font-size: 1.2rem;
@@ -41,7 +41,7 @@ nav {
 }
 
 #btnEntrar:hover {
-  background-color: var(--principal-hover);
+  background-color: var(--acento-hover);
   color: var(--secundario);
 }
 

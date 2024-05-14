@@ -1,5 +1,5 @@
 #mainContainer {
-  height: 90vh;
+  min-height: 60vh;
   background-color: var(--principal);
 }
 
