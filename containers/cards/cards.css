@@ -20,3 +20,15 @@ article .card:hover {
     filter: brightness(103%);
     background-color: rgba(51, 185, 176, 0.2);
 }
+
+/* Efecto tarjetas */
+.transUp{
+    transition: .5s, color .10s;
+        -webkit-transition: .5s, color .10s;
+        -moz-transition: .5s, color .10s;
+}
+.transUp:hover{
+    transform: translatey(-20px);
+        -webkit-transform: translatey(-20px);
+        -moz-transform: translatey(-20px);
+}
