@@ -35,7 +35,7 @@
 
   <!-- Boton desplazamiento -->
   <div id="div-totop" class="cmn-divfloat">
-    <a href="#body" class="btn  cmn-btncircle">
+    <a href="#body" class="btn cmn-btncircle">
       <i class="fa fa-arrow-up align-middle text-white"></i>
     </a>
   </div>
