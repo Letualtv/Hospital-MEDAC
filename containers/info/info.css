@@ -13,13 +13,13 @@
 
   /* Efecto tarjetas */             
 .grow{
-    transition: .5s, color .10s;
-        -webkit-transition: .5s, color .10s;
-        -moz-transition: .5s, color .10s;
+    transition: .3s, color .10s;
+        -webkit-transition: .3s, color .10s;
+        -moz-transition: .3s, color .10s;
 }
 .grow:hover{
-    transform: scale3d(1.1, 1.1, 0.3);
-        -webkit-transform: scale3d(1.1, 1.1, 0.3);
-        -moz-transform: scale3d(1.1, 1.1, 0.3);
+    transform: scale3d(1.04, 1.04, 0.2);
+        -webkit-transform: scale3d(1.04, 1.04, 0.2);
+        -moz-transform: scale3d(1.04, 1.04, 0.2);
 }
               
