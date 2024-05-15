@@ -1,0 +1,34 @@
+.card-title {
+font-size: 1rem !important;
+    font-weight: 700;
+}
+article .card{
+    border: 2px solid var(--principal);
+    transition: 0.5;
+    transition: background-color 0.2s ease;
+    box-shadow:  14px 14px 28px #c1c1c1;
+
+}
+
+article .card {
+
+    height: 5rem;
+}
+
+article .card:hover {
+    border-color: var(--acento);
+    filter: brightness(103%);
+    background-color: rgba(51, 185, 176, 0.2);
+}
+
+/* Efecto tarjetas */
+.transUp{
+    transition: .4s, color .10s;
+        -webkit-transition: .5s, color .10s;
+        -moz-transition: .5s, color .10s;
+}
+.transUp:hover{
+    transform: translatey(-10px);
+        -webkit-transform: translatey(-10px);
+        -moz-transform: translatey(-10px);
+}

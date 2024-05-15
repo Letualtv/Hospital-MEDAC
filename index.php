@@ -46,6 +46,7 @@
   <?php require('containers/info/info.html') ?>
   <?php require('containers/cards/cards1.html') ?>
   <?php require('containers/cards/cards2.html') ?>
+  <?php require('containers/cards/cards3.html') ?>
   <?php require('containers/contact/contact.html') ?>
   <?php require('containers/footer/footer.html') ?>
 
