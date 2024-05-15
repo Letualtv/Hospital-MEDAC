@@ -10,12 +10,18 @@
     height: 257px;
     padding: 1rem;
 }
-
+.shadow-card{
+    border-radius: 15px;
+    transition: 0.9;
+    transition: background-color 0.2s ease;
+    box-shadow:  10px 10px 30px var(--principal-hover);
+}
   /* Efecto tarjetas */             
 .grow{
     transition: .3s, color .10s;
         -webkit-transition: .3s, color .10s;
         -moz-transition: .3s, color .10s;
+    
 }
 .grow:hover{
     transform: scale3d(1.04, 1.04, 0.2);
