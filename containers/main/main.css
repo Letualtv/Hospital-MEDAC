@@ -9,7 +9,7 @@
 
 .focus-in-contract div {
   font-weight: 900;
-  font-size: calc(1rem + 5vw);
+  font-size: calc(0.5rem + 5vw);
 }
 
 #mainContainer h6 
