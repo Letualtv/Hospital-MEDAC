@@ -16,8 +16,6 @@
   <!-- ENLACE ESTILOS -->
   <link rel="stylesheet" href="containers/navbar/navbar.css">
   <link rel="stylesheet" href="containers/main/main.css">
-  <link rel="stylesheet" href="containers/gallery/gallery.css">
-  <link rel="stylesheet" href="containers/video/video.css">
   <link rel="stylesheet" href="containers/contact/contact.css">
   <link rel="stylesheet" href="containers/footer/footer.css">
   <link rel="stylesheet" href="containers/cards/cards.css">
@@ -41,14 +39,14 @@
   </div>
 
   <!-- ENLACE COMPONENTES -->
-  <?php require('containers/navbar/navbar.html') ?>
-  <?php require('containers/main/main.html') ?>
-  <?php require('containers/info/info.html') ?>
-  <?php require('containers/cards/cards1.html') ?>
-  <?php require('containers/cards/cards2.html') ?>
-  <?php require('containers/cards/cards3.html') ?>
-  <?php require('containers/contact/contact.html') ?>
-  <?php require('containers/footer/footer.html') ?>
+  <include src="containers/navbar/navbar.html"></include> 
+  <include src="containers/main/main.html"></include> 
+  <include src="containers/info/info.html"></include> 
+  <include src="containers/cards/cards1.html"></include> 
+  <include src="containers/cards/cards2.html"></include> 
+  <include src="containers/cards/cards3.html"></include>
+  <include src="containers/contact/contact.html"></include> 
+  <include src="containers/footer/footer.html"></include> 
 
 
 
@@ -56,6 +54,7 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
   <script src="containers/contact/contact.js"></script>
 
+  <script src="https://unpkg.com/htmlincludejs"></script>
 
 </body>
 
